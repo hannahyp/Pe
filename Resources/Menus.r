@@ -109,7 +109,7 @@ resource rtyp_Menu (rid_Menu_DwSearch, "Search Menu") {
 		Item		{ "Find selection",			msg_FindSelection,				none,	'H'		},
 		Item		{ "Enter search string",	msg_EnterSearchString,			none,	'E'		},
 		Separator	{																			},
-		Item		{ "Replace",				msg_Replace,					none,	'='		},
+		Item		{ "Replace",				msg_FindCmd,					none,	'F'		},
 		Item		{ "Replace & find",			msg_ReplaceAndFind,				none,	'T'		},
 		Item		{ "Replace all",			msg_ReplaceAll,					none,	noKey	},
 		Separator	{																			},
